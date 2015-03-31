@@ -1,31 +1,28 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+#  [broccoli](https://github.com/broccolijs/broccoli)-html [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
-> convert markdown to html
+> convert markdown to html using [html-md](https://www.npmjs.com/package/html-md)
+
+* Issues with the output should be reported on the html-md [issue tracker](https://github.com/neocotic/html.md/issues)
 
 
 ## Install
 
 ```sh
-$ npm install --save broccoli-html
+$ npm install --save-dev broccoli-html
 ```
 
 
 ## Usage
 
-### JavaScript
-
 ```js
-var broccoli-html = require('broccoli-html');
+var broccoliHtml = require('broccoli-html');
 
-broccoli-html('Rainbow');
+tree = broccoliHtml(tree);
 ```
 
-### Command Line reference
+## API
 
-```sh
-$ npm install --global broccoli-html
-$ broccoli-html --help
-```
+### broccoliHtml(tree)
 
 ## Run Test
 ```sh

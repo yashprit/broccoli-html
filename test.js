@@ -4,7 +4,7 @@ var fs = require('fs');
 var rimraf = require('rimraf');
 
 afterEach(function() {
-  //rimraf.sync('temp');
+  rimraf.sync('temp');
 });
 
 it('should convert to markdown', function() {
