@@ -2,7 +2,7 @@
 
 > convert markdown to html using [html-md](https://www.npmjs.com/package/html-md)
 
-* Issues with the output should be reported on the html-md [issue tracker](https://github.com/neocotic/html.md/issues)
+*Issues with the output should be reported on the html-md [issue tracker](https://github.com/neocotic/html.md/issues)*
 
 
 ## Install
