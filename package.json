@@ -2,44 +2,46 @@
   "name": "broccoli-html",
   "version": "0.0.0-alpha",
   "description": "convert markdown to html",
-  
-    "bugs": {
-      "url": "yashprit/broccoli-html/issues"
+  "bugs": {
+    "url": "yashprit/broccoli-html/issues"
   },
-  "author": {  "url": "yashprit.github.io"  ,  "name": "Yashprit"  ,  "email": "yashprit@gmail.com" 
+  "author": {
+    "url": "yashprit.github.io",
+    "name": "Yashprit",
+    "email": "yashprit@gmail.com"
   },
   "repository": {
     "type": "git",
     "url": "yashprit/broccoli-html"
   },
   "license": "MIT",
-  "files": [ 
-        "index.js"   ,
-        "cli.js" 
+  "files": [
+    "index.js",
+    "cli.js"
   ],
   "keywords": [
-    "broccoli-html"  ,
-        "broccoli-plugin"  ,
-        "plugin"  ,
-        "markdown"  ,
-        "html"  ,
-        "markdown-to-html"  ,
-        "convertor" 
+    "broccoli-html",
+    "broccoli-plugin",
+    "plugin",
+    "markdown",
+    "html",
+    "markdown-to-html",
+    "convertor"
   ],
-  "dependencies": { 
-        "minimist": "^1.1.1" 
+  "dependencies": {
+    "broccoli-filter": "^0.1.12",
+    "html-md": "^3.0.2",
+    "minimist": "^1.1.1"
   },
-  "devDependencies": { 
-        "mocha": "*" 
-       ,
-      "jshint-stylish": "^1.0.0" 
+  "devDependencies": {
+    "broccoli": "^0.15.3",
+    "mocha": "*",
+    "rimraf": "^2.3.2"
   },
-  "scripts": { 
-      
-      
-       "test": "mocha" 
-  }  ,
-      "bin": {
-        "broccoli-html": "cli.js"
-    } 
+  "scripts": {
+    "test": "broccoli build temp && mocha"
+  },
+  "bin": {
+    "broccoli-html": "cli.js"
+  }
 }
