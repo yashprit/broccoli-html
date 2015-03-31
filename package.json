@@ -1,0 +1,45 @@
+{
+  "name": "broccoli-html",
+  "version": "0.0.0-alpha",
+  "description": "convert markdown to html",
+  
+    "bugs": {
+      "url": "yashprit/broccoli-html/issues"
+  },
+  "author": {  "url": "yashprit.github.io"  ,  "name": "Yashprit"  ,  "email": "yashprit@gmail.com" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "yashprit/broccoli-html"
+  },
+  "license": "MIT",
+  "files": [ 
+        "index.js"   ,
+        "cli.js" 
+  ],
+  "keywords": [
+    "broccoli-html"  ,
+        "broccoli-plugin"  ,
+        "plugin"  ,
+        "markdown"  ,
+        "html"  ,
+        "markdown-to-html"  ,
+        "convertor" 
+  ],
+  "dependencies": { 
+        "minimist": "^1.1.1" 
+  },
+  "devDependencies": { 
+        "mocha": "*" 
+       ,
+      "jshint-stylish": "^1.0.0" 
+  },
+  "scripts": { 
+      
+      
+       "test": "mocha" 
+  }  ,
+      "bin": {
+        "broccoli-html": "cli.js"
+    } 
+}
